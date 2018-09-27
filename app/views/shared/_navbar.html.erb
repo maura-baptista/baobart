@@ -9,12 +9,20 @@
       <!-- Right Navigation -->
       <div class="navbar-wagon-right hidden-xs hidden-sm">
 
+
         <%= render 'shared/search-form' %> 
 
         <!-- Links when logged in -->
         <%= link_to "About us", "#", class: "navbar-wagon-item navbar-wagon-link" %>
         <%= link_to "Artisans", "#", class: "navbar-wagon-item navbar-wagon-link" %>
+         <%= link_to "Fair Trade", "#", class: "navbar-wagon-item navbar-wagon-link" %>
         <%= link_to "Contact", "#", class: "navbar-wagon-item navbar-wagon-link" %>
+
+         <%= link_to "https://www.facebook.com/BaobArtMoz/", class: "navbar-wagon-item navbar-wagon-link facebook" do %>
+          <i class="fab fa-facebook-square facebook"></i> 
+        <% end %> 
+
+         
 
         <!-- Avatar with dropdown menu -->
 
@@ -32,7 +40,7 @@
         </div>
       </div>
     </div>
-    <div class="links-section">
+    <div class="links-section hidden-xs hidden-sm">
     
         <%= link_to "Sculptures", "#", class: "navbar-wagon-item navbar-wagon-link" %>
         <%= link_to "Batiks", "#", class: "navbar-wagon-item navbar-wagon-link" %>

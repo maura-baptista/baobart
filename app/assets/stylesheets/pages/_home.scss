@@ -1,1 +1,155 @@
 // Specific CSS for your home-page
+// about us section
+.wrapper-aboutus{
+	background: #FFFFFF;
+	padding: 10px;
+	
+}
+.wrapper-aboutus h4{
+	font-family: Releway;
+	font-weight: bold;
+	font-size: 26px;
+	color: rgba(97, 102, 104, 1);
+	text-align: center;
+	margin-top: 59px;
+	margin-bottom: 28px;
+}
+.wrapper-aboutus p{
+	font-family: Open Sans;
+	font-size: 17px;
+	text-align: justify;
+	color: rgba(97, 102, 104, 0.70);
+	letter-spacing: 0.03em;
+	margin-top: 27px;
+  	line-height: 1.9;
+}
+
+.about-us-link{
+	color: $orange;
+	font-weight: 600;
+}
+
+.wrapper-foodrinks{
+  background: #FFFFFF;
+  padding-top: 44px;
+  height: 600px;
+  // padding-bottom: 250px;
+
+}
+
+.wrapper-foodrinks h4{
+	font-family: Releway;
+	font-weight: bold;
+	font-size: 26px;
+	color: rgba(97, 102, 104, 1);
+  	text-align: center;
+ 	margin-top: 0px;
+ 
+}
+
+.wrapper-foodrinks p{
+  font-family: Open Sans;
+  font-size: 17px;
+  text-align: center;
+  color: rgba(97, 102, 104, 0.70);
+  letter-spacing: 0.03em;
+  margin-top: 11px;
+  margin-bottom: 34px;
+  line-height: 1.9;
+}
+
+
+
+@media only screen 
+  and (max-width: 320px){
+  	.wrapper-aboutus h4{
+  		font-size: 18px;
+   		margin-top: 26px;
+    	margin-bottom: -7px;
+  	}
+  	.wrapper-aboutus p{
+  		font-size: 13px;
+  		letter-spacing: 0.00em;
+  		margin-top: -6px;
+  	}
+  	.about-us-link{
+  		font-size: 14px;
+  	}
+  	.wrapper-foodrinks{
+      // padding-bottom: 199px;
+        height: 1880px;
+    }
+    .wrapper-foodrinks h4{
+      font-size: 18px;
+      margin-top: -15px;
+    }
+    .wrapper-foodrinks p{
+      font-size: 13px;
+      letter-spacing: 0.00em;
+      margin-top: 12px;
+      text-align: justify;
+      margin-bottom: 25px;
+    }
+}
+
+@media only screen 
+  and (min-width: 321px)
+  and (max-width: 767px){
+  	.wrapper-aboutus h4{
+  		font-size: 19px;
+   		margin-top: 26px;
+    	margin-bottom: -7px;
+  	}
+  	.wrapper-aboutus p{
+  		font-size: 14px;
+  		letter-spacing: 0.00em;
+  		margin-top: -6px;
+  	}
+  	.about-us-link{
+  		font-size: 14px;
+  	}
+  	.wrapper-foodrinks{
+      // padding-bottom: 199px;
+        height: 1593px;
+    }
+  	.wrapper-foodrinks h4{
+      font-size: 19px;
+      margin-top: -11px;
+      margin-bottom: 13px;
+    }
+    .wrapper-foodrinks p{
+      font-size: 14px;
+      letter-spacing: 0.00em;
+      
+      margin-bottom: 26px;
+    }
+}
+
+ @media only screen 
+  and (min-width: 768px)
+  and (max-width: 990px){
+  	.wrapper-aboutus h4{
+  		font-size: 26px;
+    	margin-top: 46px;
+    	margin-bottom: 26px;
+  	}
+  	.wrapper-aboutus p{
+  		font-size: 18px;
+    	letter-spacing: 0.03em;
+    	margin-top: 24px;
+  	}
+  	.about-us-link{
+  		font-size: 19px;
+  	}
+  	.wrapper-foodrinks{
+      // padding-bottom: 199px;
+        height: 1010px;
+    }
+  	.wrapper-foodrinks h4{
+      font-size: 26px;
+    }
+    .wrapper-foodrinks p{
+      font-size: 18px;
+      letter-spacing: 0.03em;
+    }
+}

@@ -1,0 +1,38 @@
+<footer class="wrapper-footer">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<div class="address-section">
+						<%= link_to root_path, class: "logo-footer" do %>
+							<%= image_tag "logo.png", height: 80 %>
+						<% end %>
+						
+						<span class="contact-txt"><p>Do you have any questions?<br>Feel free to contact us</p></span>
+						<span class="footer-adress"><p>3 Rua Pereira e Sousa <br> Lisbon - Portugal <br>baobart@mgmail.com <br>+351 916 126 006</p></span>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="links-section1">
+						<p>About us</p>
+						<p>Contacts</p>
+						<p>Artisan Partners</p>
+						<span class="visit-us-txt hidden-xs"><p>Are you a wholesaler? <br>Contact us for wholeasle pricelist</p></span>
+					</div>
+					
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="links-section2">
+						<p>Fair Trade Principles</p>
+						<p>Terms & Conditions</p>
+						<p>Shipping</p>
+						<span class="hidden-xs"><%= render 'shared/btn-book'  %></span>	
+					</div>
+				</div>
+			</div>
+			<div class="rights-reserved">
+				<small>Copyright © Baob'Art 2018. All Rights Reserved.</small>
+			</div>
+		</div>
+	</div>	
+</footer>

@@ -66,8 +66,8 @@
 		font-size: 22px;	
 	}
 	.banner h3{
-		font-size: 16px;
-		margin-top: -9px;
+		font-size: 14px;
+		margin-top: 14px;
 		margin-bottom: 36px;
 	}
 	.btn-banner{
@@ -77,6 +77,40 @@
     	margin-right: 0px;
 	}
 }
+
+@media only screen 
+  and (min-width: 321px)
+  and (max-width: 767px){
+  	.banner{
+	    // background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4) ), image-url('carpacho-mob.jpg');
+	    background-position: center;
+	}
+	.banner h1{
+		font-size: 25px;	
+	}
+	.banner h3{
+		font-size: 15px;
+		margin-top: 14px;
+		margin-bottom: 36px;
+	}
+	.btn-banner{
+		font-size: 15px;
+		padding: 7px 14px;
+		margin-left: 0px;
+    	margin-right: 0px;
+	}
+}
+
+ @media only screen 
+  and (min-width: 768px)
+  and (max-width: 990px){
+  	.banner h1{
+		font-size: 40px;
+	}
+	.banner h3{
+		font-size: 22px;
+	}
+  }
 
 // .heading-primary{
 // 	// color: #FFF;
@@ -137,48 +171,6 @@
 // }
 
 
-@media only screen 
-  and (min-width: 321px)
-  and (max-width: 767px){
-  	.banner{
-	    // background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4) ), image-url('carpacho-mob.jpg');
-		background-position: center;
-	}
-	.banner h1{
-		font-size: 27px;	
-	}
-	.banner h3{
-		font-size: 18px;
-		margin-top: -9px;
-		margin-bottom: 36px;
-	}
-	.btn-banner{
-		font-size: 15px;
-		padding: 9px 18px;
-		margin-left: 3px;
-    	margin-right: 3px;
-	}
-
- }
-
-@media only screen 
-  and (min-width: 768px)
-  and (max-width: 990px){
-  	.banner h1{
-		font-size: 38px;
-		background-position: center;	
-	}
-	.banner h3{
-		font-size: 23px;
-    	margin-top: -9px;
-    	margin-bottom: 72px;
-	}
-	.btn-banner{
-		font-size: 23px;
-    	padding: 12px 35px;
-    	margin-left: 9px;
-   		margin-right: 9px;	}
-}
 
 
 
