@@ -1,6 +1,9 @@
 /* Main navbar */
 .wrapper-navbar{
-   background: white;
+  background: white;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
 
 }
 
@@ -17,9 +20,9 @@
 
 /* Logo */
 .navbar-wagon-brand img {
-    height: 87px;
+    height: 78px;
     position: relative;
-    top: 17px;
+    top: 1px;
 }
 
 /* User Avatar */
@@ -84,18 +87,26 @@
 }
 
 // links section
+
+.lower-navbar{
+  width: 100vw;
+  background: #262525;
+}
 .links-section{
-  background: #f0f0f0;
-  height: 40px;
+  background: #262525;
+  height: 46px;
   // padding: 0px 30px;
   display: flex;
   justify-content: space-between;
   display: flex;
   align-items: center;
-  color: #5d5d5d;
-  margin-top: 29px;
-  margin-bottom: 13px;
-  border-radius: 4px;
+  
+  // margin-top: 29px;
+  // margin-bottom: 13px;
+  // border-radius: 4px;
+  & a{
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
 }
 .facebook{
   font-size: 22px;
