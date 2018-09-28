@@ -22,7 +22,7 @@
 
 .product-card {
   // width:280px;
-  width: 280px;
+  width: 272px;
   display:inline-block;
   background-color:#fff;
   // background-color: #11d6d6;
@@ -30,7 +30,8 @@
   z-index:20;
   // box-shadow:0 1px 11px 0 rgba(0,0,0,.1);
   border-radius:2px;
-  margin-bottom:40px;
+  margin-top: 28px;
+  // margin-bottom:40px;
   
   -webkit-transition: all 250ms ease-out;
 	   -moz-transition: all 250ms ease-out;
@@ -66,7 +67,8 @@
     font-size:16px;
     font-weight: 400;
     color: rgba(71, 74, 76, 0.9);
-    padding-bottom: 48px;
+    margin-top: 0;
+    // padding-bottom: 48px;
     // margin:30px 0 0 ;
   }
   h4 {
@@ -87,6 +89,7 @@
       display:inline-block;
       max-width:80%;
       margin:30px 0;
+      height: 259px;
     }
   }
   .price {

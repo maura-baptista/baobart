@@ -7,6 +7,19 @@
 		 -->
 	</div>
 </div>
+<div class="wrapper-foodrinks">
+	<div class="container">
+		<h4>FEATURED</h4>
+		<br>	
+		<div class="row">
+			<% @products.each do |r| %>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<%= render  "products/product", product: r %>
+				</div>
+			<% end %>	
+		</div>		
+	</div>
+</div>
 <div class="wrapper-aboutus">
 	<div class="container">
 		<h4>OUR STORY</h4>
@@ -14,13 +27,13 @@
 		<p>
 			Baob’Art is a small marketing organization created in 2010 by Maura Mendes and Raphael Baptista mainly focused on promoting Mozambique’s craft across the borders. <br>
 
-			<br>
+			
 			The two founders have known many of the craftsmen
 			for years, watching them strugling to earn a living by their art. 
 
 			For the producers of arts and crafts, market in Maputo(the capital) is the only direct marketing opportunity. The rest of the production goes on between dealers and buyers in the sub-Region (especially from South Africa). The proposed prices are also generally low. 
 			<br>
-			<br>
+			
 			With BaobArt's support, the craftspeople have now income-generating opportunities, exporting their products under the conditions of Fair Trade,  ensuring that their work leads them to a sustainable feature.
 			
 	
@@ -28,26 +41,7 @@
 		<%= link_to "Read more about us...",  "#", class: "about-us-link " %>
 	</div>
 </div>
-<div class="wrapper-foodrinks">
-	<div class="container">
-		<h4>FEATURED COLECTIONS</h4>
-		<br>	
-		<div class="row">			
-			<div class="col-xs-12 col-sm-6 col-md-3">
-				<%= render 'shared/card2' %>	
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3">
-				<%= render 'shared/card2' %>	
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3">
-				<%= render 'shared/card2' %>	
-			</div>	
-			<div class="col-xs-12 col-sm-6 col-md-3">
-				<%= render 'shared/card2' %>	
-			</div>			
-		</div>	
-	</div>
-</div>
+
 
 
 

@@ -2,7 +2,8 @@
 // about us section
 .wrapper-aboutus{
 	background: #FFFFFF;
-	padding: 10px;
+	padding-bottom: 56px;
+	// padding: 10px;
 	
 }
 .wrapper-aboutus h4{
@@ -11,7 +12,7 @@
 	font-size: 26px;
 	color: rgba(97, 102, 104, 1);
 	text-align: center;
-	margin-top: 59px;
+	// margin-top: 59px;
 	margin-bottom: 28px;
 }
 .wrapper-aboutus p{
@@ -31,9 +32,10 @@
 
 .wrapper-foodrinks{
   background: #FFFFFF;
-  padding-top: 44px;
-  height: 600px;
+  padding-top: 67px;
+  height: 890px;
   // padding-bottom: 250px;
+  text-align: center !important;
 
 }
 
@@ -42,9 +44,38 @@
 	font-weight: bold;
 	font-size: 26px;
 	color: rgba(97, 102, 104, 1);
-  	text-align: center;
+  
  	margin-top: 0px;
+ 	position: relative;
+ 	display: inline-block;
+ 	
+ 	&::before,
+ 	&::after {
+ 		content: '';
+ 		height: 100%;
+ 		display: block !important;
+ 		position: absolute;
+ 		
+ 	}
  
+	&::before{
+		display: block;
+		background: blue;
+		width: 100%;
+		z-index: -10;
+		
+
+	} 
+	&::after{
+		display: block;
+		background: red;
+		width: 100vw;
+		left: 50%;
+		top: 0;
+		transform: translateX(-50%);
+		z-index: -20;
+		
+	}
 }
 
 .wrapper-foodrinks p{
