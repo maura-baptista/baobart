@@ -111,6 +111,10 @@
 
 @media only screen 
   and (max-width: 320px){
+    .product-card{
+
+    }
+
     .product-card h2{
     padding-bottom: 0px;
     margin-top: 0;   
@@ -123,6 +127,14 @@
   .product-card h2{
     padding-bottom: 0px;
     margin-top: 0;   
+  }
+}
+
+@media only screen 
+  and (min-width: 1023px)
+  and (max-width: 1439px){
+    .product-card{
+      width: 250px;  
   }
 }
 
