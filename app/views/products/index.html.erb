@@ -1,2 +1,19 @@
-<h1>Products#index</h1>
-<p>Find me in app/views/products/index.html.erb</p>
+<div class="search-results">
+
+	<div class="container">
+
+		<h2 class="results-header">SEARCH &nbsp <span class="vertical-stick">|</span> &nbsp <span class="results-count"><%= @products.count %> results</span></h2>
+		<hr>
+	  	<div class="row">
+			<% @products.each do |r| %>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<%= render  "shared/card2", product: r %>
+				</div>
+			<% end %>	
+	</div>		
+</div>
+	
+  
+
+
+
